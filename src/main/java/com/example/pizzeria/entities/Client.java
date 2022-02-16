@@ -6,7 +6,9 @@ import javax.persistence.Entity;
 
 public class Client extends AbstractBaseEntity{
 
-    String name;
-    double balance;
+    String FirstName;
+    String LastName;
+    int age;
+    double BankBalance;
 
 }
