@@ -13,4 +13,15 @@ public class AbstractBaseEntity {
     @GeneratedValue(strategy = GenerationType.AUTO)
     long id;
 
+    String FirstName;
+    String LastName;
+    String Job;
+    String Ingredient;
+    double IngredientPrice;
+    double WeekSalary;
+    double BuyPrice;
+    double SellPrice;
+    int age;
+    double BankBalance;
+    double SalesQuantity;
 }

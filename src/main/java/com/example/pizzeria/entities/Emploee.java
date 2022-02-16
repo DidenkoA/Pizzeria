@@ -1,6 +1,10 @@
 package com.example.pizzeria.entities;
 
-public class Emploee extends AbstractBaseEntity{
+import com.example.pizzeria.repository.AbstractEmploeeRepository;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Emploee implements AbstractEmploeeRepository {
     String Name;
     String Job;
     double WeekSalary ;
